@@ -37,3 +37,5 @@ Thumbs.db
 coverage.out
 
 # Cobra CLI generated files (if any) 
+
+kube-controller
