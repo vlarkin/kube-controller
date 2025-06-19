@@ -31,4 +31,7 @@ Thumbs.db
 
 # Coverage files
 *.coverprofile
-coverage.out 
+coverage.out
+
+# the result binary
+kube-controller

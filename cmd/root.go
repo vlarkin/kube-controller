@@ -13,7 +13,7 @@ import (
 var logLevel string
 
 var rootCmd = &cobra.Command{
-	Use:   "k8s-controller-tutorial",
+	Use:   "kube-controller",
 	Short: "A brief description of your application",
 	Long: `A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
@@ -30,7 +30,7 @@ to quickly create a Cobra application.
 		log.Trace().Msg("This is a trace log")
 		log.Warn().Msg("This is a warn log")
 		log.Error().Msg("This is an error log")
-		fmt.Println("Welcome to k8s-controller-tutorial CLI!")
+		fmt.Println("Welcome to kube-controller CLI!")
 	},
 }
 
