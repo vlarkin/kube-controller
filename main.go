@@ -4,7 +4,7 @@ Copyright © 2025 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "github.com/yourusername/k8s-controller-tutorial/cmd"
+import "github.com/vlarkin/kube-controller/cmd"
 
 func main() {
 	cmd.Execute()

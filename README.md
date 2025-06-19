@@ -1,4 +1,4 @@
-# k8s-controller-tutorial
+# kube-controller
 
 A starter template for building Kubernetes controllers or CLI tools in Go using [cobra-cli](https://github.com/spf13/cobra-cli).
 
@@ -14,13 +14,13 @@ A starter template for building Kubernetes controllers or CLI tools in Go using 
 
 1. **Clone this repository:**
    ```sh
-   git clone https://github.com/yourusername/k8s-controller-tutorial.git
-   cd k8s-controller-tutorial
+   git clone https://github.com/vlarkin/kube-controller.git
+   cd kube-controller
    ```
 
 2. **Initialize Go module (if not already):**
    ```sh
-   go mod init github.com/yourusername/k8s-controller-tutorial
+   go mod init github.com/vlarkin/kube-controller
    ```
 
 3. **Initialize Cobra:**
